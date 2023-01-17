@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(30, 38%, 92%);
+}
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    @media screen and (max-width: 576px) {
+    .container{
+    flex-direction: column;
+    }
+}
+/* DIV */
+.main-image{
+    width: 20rem;
+    height: 27rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+/* DIV */
+.description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    width: 20rem;
+    height: 27rem;
+    padding: 2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.title{
+margin-bottom: 1rem;
+}
+.main-title{
+    margin-bottom: 1rem;
+    
+}
+.text{
+    margin-bottom: 1rem;
+    
+}
+/* DIV */
+.price{
+    display: flex;
+    gap: 1rem;
+    font-size: 10px;
+    margin-bottom: 1rem;
+
+}
+.current-price{
+color: hsl(158, 36%, 37%);
+}
+.prev-price{
+    color: gray;
+    font-size: 1rem;
+text-decoration: line-through;
+}
+/* BTN */
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    width: 14rem;
+    height: 2.5rem;
+    padding: 5px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+}
+.btn:hover{
+color:#000 ;
+background-color: pink;
+}
+.btn-icon{
+margin-right: 5px;
+}
